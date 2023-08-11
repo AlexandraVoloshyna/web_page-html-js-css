@@ -1,0 +1,41 @@
+.footer {
+	padding: 3.125rem 0;
+}
+.footer__container {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: space-between;
+}
+.footer__menu {
+	width: 240px;
+}
+.footer__menu-title {
+	color: #4a4a4a;
+	font-size: .875rem;
+	font-weight: 700;
+	letter-spacing: .7px;
+	line-height: 1.22;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.footer__menu-item {
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+.footer__menu-link {
+	color: #637280;
+	font-size: .875rem;
+	letter-spacing: .25px;
+	line-height: 1.71;
+}
+.socials {
+	border-top: 2px solid #637280;
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+	padding-top: 20px;
+}

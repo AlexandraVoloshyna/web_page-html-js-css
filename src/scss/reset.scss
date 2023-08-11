@@ -1,0 +1,53 @@
+html,
+body{
+    height: 100%;
+    
+}
+*,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+textarea,
+button,
+input{
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+button{
+    background-color: inherit;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+    &:hover {
+		text-decoration: underline;
+	}
+}
+
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight:inherit;
+font-size:inherit;
+}
+
+img{
+    vertical-align: top;
+    
+}
+

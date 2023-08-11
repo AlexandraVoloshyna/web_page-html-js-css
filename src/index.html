@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <script defer src="js/main.min.js"></script>
+    <title>Saasto</title>
+</head>
+<body>
+   <div class="wrapper">
+      @@include('_header.html')
+      <main class="main">
+         <section class="about">
+            <div class="about__container">
+               <div class="about__content content">
+                  <h1 class="about__title title">Exploring cities through data analysis and visualization</h1>
+                  <div class="about__text text">
+                     <p>Morphocode is a design and development firm that uses data to visualize urban dynamics and provide location insights. Our team brings together expertise across architecture, urban planning, and software engineering.</p>
+                  </div>
+               </div>
+               <div class="about__image image">
+                  <img  class="section__img" src="images/section1.jpg" alt="">
+               </div>
+            </div>
+         </section>
+         <section class="portfolio">
+            <div class="portfolio__container">
+               <div class="portfolio__image image">
+                  <img  class="section__img" src="images/section2.jpg" alt="">
+               </div>
+               <div class="portfolio__content content">
+                  <h2 class="portfolio__title title">We research, design, and develop</h2>
+                  <div class="portfolio__text text">
+                     <p>Our portfolio ranges from interactive web maps and information graphics to custom software tools for data analysis and visualization.</p>
+                  </div>
+                  <a href="#" class="section__link">View Projects</a>
+               </div>
+            </div>
+         </section>
+         <section class="academy">
+            <div class="academy__container">
+               <div class="academy__content content">
+                  <h2 class="academy__title title">Learn with Morphocode</h2>
+                  <div class="academy__text text">
+                     <p>Morphocode Academy is an online school that covers topics in data visualization, creative coding, and urban informatics.</p>
+                  </div>
+                  <a href="#" class="section__link">Start Learning</a>
+               </div>
+               <div class="academy__image image">
+                  <img  class="section__img" src="images/section3.jpg" alt="">
+               </div>
+            </div>
+         </section>
+         <section class="blog">
+            <div class="blog__container">
+               <h2 class="blog__title">From the blog</h2>
+               <div class="blog__items">
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog1.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">The power of interactive tools</h3>
+                           <p class="blog__text-description">Tools augment our problem-solving capacity. We rely on them to expand our minds and provide ease, accuracy, and [...]</p>
+                        </div>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog2.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">The making of Morphocode Explorer</h3>
+                           <p class="blog__text-description">Over the last year, we’ve been working on a new web tool for interactive data exploration [...]</p>
+                        </div>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog3.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">Urban performance measures</h3>
+                           <p class="blog__text-description">Urban performance measures help communities make informed decisions and measure results against goals. [...]</p>
+                        </div>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog4.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">The 5-minute walk</h3>
+                           <p class="blog__text-description">The five-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing [...]</p>
+                        </div>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog5.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">Location + time: urban data visualization</h3>
+                           <p class="blog__text-description">The most common ways to visually organize information are based on location and time. In this interactive story, [...]</p>
+                        </div>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="blog__item">
+                        <div class="blog__image">
+                           <img src="images/blog6.jpg" alt="">
+                        </div>
+                        <div class="blog__text">
+                           <h3 class="blog__text-title">Morphocode in the Best American Infographics</h3>
+                           <p class="blog__text-description">We are extremely happy to be included in The Best American Infographics. The third volume in the series [...]</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </section>
+         <section class="subscribe">
+            <div class="subscribe__container">
+               <div class="subscribe__content">
+                  <h2 class="subscribe__title title">Start Learning</h2>
+                  <div class="subscribe__text text">
+                     <p>Get the latest articles, tutorials, and free resources from Morphocode</p>
+                  </div>
+               </div>
+               <div class="subscribe__form">
+                  <form action="#">
+                     <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                     <button type="submit" class="subscribe__form-btn">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+        </main>
+      @@include('_footer.html')  
+   </div> 
+</body>
+</html>
